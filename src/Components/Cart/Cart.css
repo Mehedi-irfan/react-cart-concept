@@ -1,0 +1,24 @@
+.cart{
+    background-color: lightgrey;
+    padding: 10px 15px;
+    width: 320px;
+}
+.cart h4{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.purches{
+    background-color: goldenrod;
+    color: white;
+    width: 250px;
+    padding: 10px 10px;
+    border: 2px solid goldenrod;
+    transition: 0.6s ease-in;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.purches:hover{
+    background-color: transparent;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+}

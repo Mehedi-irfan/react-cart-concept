@@ -1,0 +1,23 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: left;
+}
+.product-container{
+    margin-left: 100px;
+}
+.input-div{
+    background-color: lightslategrey;
+    padding: 30px;
+}
+.input-value{
+    width: 900px;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.icon{
+    font-size: 25px;
+    color: whitesmoke;
+}
