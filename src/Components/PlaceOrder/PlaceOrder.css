@@ -1,0 +1,11 @@
+.success-img{
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.success-text{
+    font-weight: bolder;
+    color: crimson;
+    font-size: 35px;
+}

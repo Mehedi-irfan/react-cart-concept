@@ -2,6 +2,7 @@ import React from 'react';
 
 const ReviewItem = (props) => {
     const {img, name, price, seller, quantity, key} = props.product;
+    console.log(props.product);
     const {removeItem} = props;
     return (
         <div className='product'>

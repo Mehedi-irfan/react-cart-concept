@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Shop from './Components/Header/Shop/Shop';
 import Inventory from './Components/Inventory/Inventory';
 import OrderReview from './Components/OrderRivew/OrderReview';
+import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path='/manage'>
             <Inventory></Inventory>
+          </Route>
+          <Route path='/placeOrder'>
+            <PlaceOrder></PlaceOrder>
           </Route>
           <Route path='*'>
           <NotFound></NotFound>
